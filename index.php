@@ -4,7 +4,8 @@ $form = new Form("index.php", FormMethod::POST);
 
 $br = new Element();
 $br->setTag("br");
-$img = new Img("https://upload.wikimedia.org/wikipedia/commons/f/f5/Google_criculo_logo.jpg", "Olc Logo");
+$img = new Img("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png", "Olc Logo");
+$img->addStyle(new Estyle("width", "100%"));
 
 $link = new ALink("https://google.com", $img);
 $link->addStyle(new Estyle("width", "50%"));
