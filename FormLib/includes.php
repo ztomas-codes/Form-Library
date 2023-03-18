@@ -1,0 +1,16 @@
+<?php
+include('Elements/Interface/Placeholder.php');
+include('Elements/Inheritance/Element.php');
+include('Elements/Inheritance/EAttribute.php');
+include('Elements/Inheritance/Input.php');
+include('Elements/Inheritance/Estyle.php');
+include('Elements/Inputs/TextInput.php');
+include('Elements/Inputs/CheckBox.php');
+include('Elements/Inputs/PasswordInput.php');
+include('Elements/Inputs/Submit.php');
+include('Elements/Form.php');
+include('Elements/Img.php');
+include('Elements/Div.php');
+include('Elements/Inputs/Select/Select.php');
+include('Elements/Inputs/Select/SelectOption.php');
+include('Elements/ALink.php');
