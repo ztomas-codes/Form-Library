@@ -1,10 +1,21 @@
-<?php
+# My Form Library
+## Description
+
+This repository contains a simple ,,library''' for building simple php form
+
+### Installing
+In order to use this PHP library you need to download FormLib folder and add it to your project
+
+### Usage
+
+Here's a usage code 
+```php
 include("FormLib/includes.php");
 $form = new Form("index.php", FormMethod::POST);
 
 $br = new Element();
 $br->setTag("br");
-$img = new Img("https://upload.wikimedia.org/wikipedia/commons/f/f5/Google_criculo_logo.jpg", "Olc Logo");
+$img = new Img("https://upload.wikimedia.org/wikipedia/commons/f/f5/Google_criculo_logo.jpg", "Google logo");
 
 $link = new ALink("https://google.com", $img);
 $link->addStyle(new Estyle("width", "50%"));
@@ -47,11 +58,10 @@ $div->setStyle(
 $form->add($div);
 
 echo $form;
+
 ?>
 
 <pre>
 <?php var_dump($form->validate()); ?>
 </pre>
-
-
-
+```
